@@ -1,0 +1,97 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f9; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+} 
+.dashboard-container { 
+    background-color: white; 
+    padding: 40px; 
+    border-radius: 8px; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
+    max-width: 600px; 
+} 
+h2, h3 { 
+    color: #333; 
+    margin-bottom: 20px; 
+} 
+form { 
+    margin-bottom: 30px; 
+} 
+select { 
+    padding: 10px; 
+    margin-top: 10px; 
+    width: 100%; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+} 
+input[type="submit"] { 
+    padding: 10px; 
+    width: 100%; 
+    background-color: #0d6efd; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    margin-top: 10px; 
+    cursor: pointer; 
+    font-size: 16px; 
+} 
+input[type="submit"]:hover { 
+    transform: scale(1.010); 
+} 
+ul.course-list { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+} 
+ul.course-list li.course-item { 
+    margin-bottom: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 16px; 
+} 
+ul.course-list li .button-group { 
+    display: flex; 
+    gap: 10px; 
+} 
+a.btn, a.btn-secondary { 
+     padding: 5px 15px; 
+    font-size: 14px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    color: white; 
+    transition: transform 0.2s ease-in-out; 
+} 
+a.btn { 
+        background-color: #0d6efd; 
+} 
+a.btn-secondary { 
+    margin-right: 220px ; 
+    background-color: #6c757d; 
+} 
+a.btn:hover, a.btn-secondary:hover { 
+    transform: scale(1.05); 
+} 
+a.btn-secondary { 
+    margin-left: 10px; 
+} 
+a.btn-logout { 
+    display: inline-block; 
+    margin-top: 20px; 
+    background-color: #0d6efd; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 16px; 
+} 
+a.btn-logout:hover { 
+    transform: scale(1.05); 
+}
